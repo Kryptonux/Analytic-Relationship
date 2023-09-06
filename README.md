@@ -18,10 +18,11 @@ To use AnalyticRelationship, follow these steps:
 1. Clone the repository:
 ```bash
 git clone https://github.com/Kryptonux/Analytic-Relationship
-cd Analytic-Relationship
+cd Analytic-Relationship/src
 ```
-2. Run the tool with a target URL:
+2. Build and Run the tool with a target URL:
 ```
+go build .
 ./analyticrelationship -u [TARGET]
 ```
 
